@@ -121,7 +121,7 @@ define ( 'TEXT_PAYPAL_BUY', 'Buy this item' );
 define ( 'TEXT_PAYPAL_OUT_BACK', 'Item is no longer in stock. Please click back and refresh the page to update inventory.' );
 define ( 'TEXT_PAYPAL_PLEASE_WAIT', 'Redirecting to PayPal. Please wait... (Can take a few seconds)' );
 
-define ( 'TEXT_GALLERY_NAME', 'Single File PHP Gallery' );
+define ( 'TEXT_GALLERY_NAME', 'Artex D and T Gallery' );
 define ( 'TEXT_HOME', 'Home' );
 define ( 'TEXT_CLOSE_IMG_VIEW', 'Close Image' );
 define ( 'TEXT_ACTUAL_SIZE', 'Actual Size' );
@@ -1061,7 +1061,7 @@ function sfpg_javascript() {
 		echo "menu += '<span onmouseover=\"this.className=\'sfpg_button_hover\';\" onmouseout=\"this.className=\'sfpg_button\';\" class=\"sfpg_button\" onclick=\"window.location=\'" . LINK_BACK . "\'\">" . str_to_script ( TEXT_LINK_BACK ) . "</span>';
 				";
 	}
-	echo "menu += '<span onmouseover=\"this.className=\'sfpg_button_hover\';\" onmouseout=\"this.className=\'sfpg_button\';\" class=\"sfpg_button\" onclick=\"window.location=\'http://sye.dk/sfpg/\'\">sfpg - sye.dk</span>';
+	echo "
 			document.getElementById('div_menu').innerHTML = menu;
 		}
 
